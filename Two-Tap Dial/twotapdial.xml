@@ -1,0 +1,90 @@
+﻿<Extensions>
+  <Version>1.5</Version>
+  <Panel>
+    <PanelId>panel-1</PanelId>
+    <Type>Home</Type>
+    <Icon>Media</Icon>
+    <Order>1</Order>
+    <Name>Ringtone</Name>
+    <Page>
+      <Name>Music</Name>
+      <Row>
+        <Name>Menu</Name>
+        <Widget>
+          <WidgetId>Stop</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=stop</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>Play</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=play</Options>
+        </Widget>
+        <Widget>
+          <WidgetId>List</WidgetId>
+          <Type>Button</Type>
+          <Options>size=1;icon=list</Options>
+        </Widget>
+      </Row>
+      <Options/>
+    </Page>
+  </Panel>
+  <Panel>
+    <PanelId>panel-2</PanelId>
+    <Type>Statusbar</Type>
+    <Icon>Concierge</Icon>
+    <Order>2</Order>
+    <Color>#FF3D67</Color>
+    <Name>Two-Tap Dial</Name>
+    <Page>
+      <Name>Two-Tap Dial List</Name>
+      <Row>
+        <Name>Contact 1</Name>
+        <Widget>
+          <WidgetId>FavCall_1</WidgetId>
+          <Name>Dial</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Contact 2</Name>
+        <Widget>
+          <WidgetId>FavCall_2</WidgetId>
+          <Name>Dial</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Contact 3</Name>
+        <Widget>
+          <WidgetId>FavCall_3</WidgetId>
+          <Name>Dial</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Contact 4</Name>
+        <Widget>
+          <WidgetId>FavCall_4</WidgetId>
+          <Name>Dial</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <Row>
+        <Name>Contact 5</Name>
+        <Widget>
+          <WidgetId>FavCall_5</WidgetId>
+          <Name>Dial</Name>
+          <Type>Button</Type>
+          <Options>size=2</Options>
+        </Widget>
+      </Row>
+      <PageId>Two-Tap-Dial-List</PageId>
+      <Options/>
+    </Page>
+  </Panel>
+</Extensions>
